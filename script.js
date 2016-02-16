@@ -7,10 +7,18 @@
 
 
 $(document).ready(function(){
-  $('a').hover(function(){
-    $(this).stop().animate({ marginTop: '-10px'}, 250);
+  $('ul#social li a').hover(function(){
+    $(this).css({width:"125%",height:"125%"});
+},function(){
+    $(this).css({width:"100%",height:"100%"});   
+});
+
+
+
+
+  /*  stop().animate({ imageSize: '120%'}, 250);
     }, function(){
-      $(this).stop().animate({marginTop: '0px'}, 250);
+      $(this).stop().animate({ imageSize: '100%'}, 250);
   });
 });
   
