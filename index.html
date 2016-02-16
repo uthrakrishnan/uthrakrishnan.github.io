@@ -6,23 +6,21 @@
   <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Overlock:400,900' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
-
 </head>
 <body>
   <header>
     <div id="header" background=""></div>
     <div>
       <nav>
-        <ul>
+        <ul id="menu">
           <li><a href="index.html">About Me</a></li>
           <li><a href="gschool.html">GSchool</a></li>
-          <li><a href="photos.html">Photos</a></li>
-          <li>Contact Me</li>
+          <!-- <li><a href="photos.html">Photos</a></li> -->
         </ul>
       </nav>
     </div>
-  </header> 
-  <div id="banner"><img id="wonder" src="images/Wonder.jpg"></div>
+  </header>  
+  <div class="banner"><img id="wonder" src="images/Wonder.jpg"></div>
   
   <div class="poem">
     <h5>UNDERNEATH</h5>
@@ -34,7 +32,7 @@
     <p>Hi, I'm Uthra Krishnan. I am a marketing professional with experience in content management, demand generation, social media marketing, and product management. I graduated from San Jose State University with a degree in business administration after having switched my major and the university I was attending 6 times (talk about taking the long road). I love a good laugh and to lose myself in another world, be it in a book, a song, or a movie.</p>
   </div> 
   
-<div id="banner"><img id="sisters" src="images/Sisters.jpg"> </div> 
+<div class="banner"><img id="sisters" src="images/Sisters.jpg"> </div> 
   
   <div class="poem2">
   <h5>TREE HOUSE</h5>
@@ -45,31 +43,42 @@
   <div class="section2">
     <h2> Home Sweet Home</h2>
     <p>
-      Home sweet home is in Fremont, California where I live with my husband, our two sons, and my in-laws, all in one house. I would love a pet but my sons do a good job of filling in the position, especially my oldest who is a monkey incarnated. I have a younger sister who lives in NYC (whom we are trying to convince to move out here) and my parents are not too far away in Clovis, CA. My husband's brother lives over in Pleasanton with his family. We have various cousins and close family friends that we grew up with in the area as well. Family is everything to us and we firmly believe that it takes a village. And so we bought a house to hold us all and furnished it with a couch on steroids that seats 12 comfortably with lots of extra floor cusions just in case.
+      Home sweet home is in Fremont, California where I live with my husband, our two sons, and my in-laws, all in one house. I would love a pet but my sons do a good job of filling in the position, especially my oldest who is a monkey incarnated. I have a younger sister who lives in NYC (whom we are trying to convince to move out here) and my parents are not too far away in Clovis, CA. My husband's brother lives over in Pleasanton with his family. We have various cousins and close family friends that we grew up with in the area as well. Family is everything to us and we firmly believe that it takes a village. And so we bought a house to hold us all and furnished it with a couch on steroids that seats 12 comfortably with lots of extra floor cushions just in case.
     </p>
   </div>
   
   <div>
-  <div id="banner"><img id="hobbies" src="images/favoritethings.png"</div>
+  <div class="banner"><img id="hobbies" src="images/favoritethings.png"</div>
   <div class="poem">
     <h5>PUT SOMETHING IN</h5>
     <p>"Draw a crazy picture,<br>Write a nutty poem,<br>Sing a mumble-gumble song,<br>Whistle through your comb.<br>Do a loony-goony dance<br>'Cross the kitchen floor,<br>Put something silly in the world<br>That ain't been there before.”</p>
     <p class="author">~ Shel Silverstein</p>
   </div>
   <div class="section">
-  <table>
+  <table class="grid fade">
     <tr>
-      <td><div><img class="fade" src="http://www.telegraph.co.uk/content/dam/Travel/leadAssets/30/42/Snorkeling_in_Bora_3042572a-large.jpg"></div><div class="text"><p>Swimming with the fishes</p></div></td>
-      <td><div><img class="fade" src="https://secure.static.tumblr.com/46a5d781759da871014a96649b970e56/nbxrnkj/uNon6uclm/tumblr_static_tumblr_static_pg6jy9xq6io048s84o00gcw4_640.jpg"></div><div class="text"><p >Dancing in the moonlight</p></div></td>
-      <td><div><img class="fade" src="http://friendsofchagfordlibrary.files.wordpress.com/2014/08/6a00e54fcf7385883401a3fd41b4ed970b-800wi.jpg?w=720"></div><div class="text">Getting lost in a book</p></div></td>
+      <td><img class="shadow" src="http://www.telegraph.co.uk/content/dam/Travel/leadAssets/30/42/Snorkeling_in_Bora_3042572a-large.jpg"><div class="text"><p>Swimming with the fishes</p></div></td>
+      <td><img class="shadow" src="https://secure.static.tumblr.com/46a5d781759da871014a96649b970e56/nbxrnkj/uNon6uclm/tumblr_static_tumblr_static_pg6jy9xq6io048s84o00gcw4_640.jpg"><div class="text"><p >Dancing in the moonlight</p></div></td>
+      <td><img class="shadow" src="http://friendsofchagfordlibrary.files.wordpress.com/2014/08/6a00e54fcf7385883401a3fd41b4ed970b-800wi.jpg?w=720"><div class="text">Getting lost in a book</p></div></td>
     </tr>
     <tr>
-      <td><div><img class="fade" src="http://www.wallpaperup.com/uploads/wallpapers/2014/03/11/295758/big_thumb_0071e3aafc956927e69dc17eb8de9d5a.jpg"></div><div class="text">Drowning in music</p></div></td>
-      <td><div><img class="fade" src="https://s-media-cache-ak0.pinimg.com/736x/99/50/1b/99501ba3646a518bda16be59ff816dcc.jpg"></div><div class="text">Stitching through time</p></div></td>
-      <td><div><img class="fade" src=http://cf.broadsheet.ie/wp-content/uploads/2014/12/Screen-Shot-2014-12-16-at-02.00.17.jpeg></div><div class="text">Piecing a puzzle</p></div></td>
+      <td><img class="shadow" src="http://www.wallpaperup.com/uploads/wallpapers/2014/03/11/295758/big_thumb_0071e3aafc956927e69dc17eb8de9d5a.jpg"><div class="text"><p>Drowning in music</p></div></td>
+      <td><img class="shadow" src="https://s-media-cache-ak0.pinimg.com/736x/99/50/1b/99501ba3646a518bda16be59ff816dcc.jpg"><div class="text"><p>Stitching through time</p></div></td>
+      <td><img class="shadow" src=http://cf.broadsheet.ie/wp-content/uploads/2014/12/Screen-Shot-2014-12-16-at-02.00.17.jpeg><div class="text"><p>Piecing a puzzle</p></div></td>
     </tr>
   </table>
   </div>
   </div>
+  <footer>
+    <img src="images/line.png">
+    <div>
+      <h2>Connect with me on:</h2>
+      <ul id="social">
+        <li><a href=""><img class="icon" src="images/facebookicon.png"></a></li>
+        <li><a href=""><img class="icon" src="images/twittericon.png"></a></li>
+        <li><a href=""><img class="icon" src="images/linkedinicon.png"></a></li>
+        <li><a href=""><img class="icon" src="images/githubicon.png"></a></li>
+      </ul>
+  </footer>
 </body>
 </html>

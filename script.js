@@ -1,16 +1,17 @@
-$(document).ready(funtion(){
+/*$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
 });
+*/
 
 
-$('.fade').mouseenter(function() {
-    $(this).fadeOut(200);
-    $('.text').fadeIn();
+$(document).ready(function(){
+  $('ul#social li a').hover(function(){
+    $(this).stop().animate({ marginTop: '-10px'},250);
+    }, function(){
+      $(this).stop().animate({marginTop: '0px'}, 250);
+  });
 
 });
-
-/*$('img')
-.mouseleave(function(){
-  $(this).animate({opacity:1}, 200);
-  $('.text').fadeOut(); */
-});
-});   
+  
