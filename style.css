@@ -177,6 +177,10 @@ h2 {
   font-size: 35px;
 }
 
+td p {
+  text-align: center;
+}
+
 .shadow {
   width:250px;
   height:180px;
