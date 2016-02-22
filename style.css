@@ -1,7 +1,8 @@
 
 body {
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  margin: 0;
+  padding:0;
 
 }
 
@@ -33,31 +34,7 @@ ul#menu li a {
 
 }
 
-ul#social {
-  width:80%;
-  height:50px;
-  list-style: none;
-  margin:0;
-  padding:20px, 0px, 0px, 20%;
-}
-
-ul#social li {
-  display: inline-block;
-}
-
-#wonder {
-  width: 100%;
-  height: 110%;
-  margin-top: 75px;
-}
-
-#sisters {
-  width:100%;
-  height:90%;
-}
-
-#hobbies {
-  margin-top:20px;
+.banner {
   width:100%;
 
 }
@@ -75,58 +52,26 @@ ul#social li {
   font-size: 18px;
   background-color: #004d4d;
   color: white;
-  float: left;
-  width: 30%;
   padding-left:15px;
-
 }
 
-.poem2 {
-  font-family: 'Shadows Into Light Two', cursive;
-  font-size: 18px;
-  background-color: #004d4d;
-  color: white;
-  float: right;
-  width: 30%;
-  padding-left:15px;
-
+.poem h5 {
+  font-size: 16px;
 }
 
-.gif {
-  float: left;
-}
-
-.gif1 {
-  float: right;
-}
-
-.container {
-  margin:0;
-  width: 100%;
-  display: block;
+.author {
+  margin-left: 45px;
+  font-size: 16px;
 }
 
 .section {
-  float: right;
   font-family: "Overlock", cursive;
   font-size: 20px;
-  width: 67%;
   margin: auto 0;
-  height: relative;
-  padding:0, 15px, 0, 15px;
-  text-align: justify;
- 
-}
-.section2 {
-  float: left;
-  font-family: "Overlock", cursive;
-  font-size: 20px;
-  width: 67%;
-  margin: auto 0;
-  height: relative;
-  padding:0, 15px, 0, 15px;
+  padding:0 15px;
   text-align: justify;
 }
+
 
 .section3 {
   float: left;
@@ -139,22 +84,15 @@ ul#social li {
   text-align: justify;
 }
 
-.poem h5 {
-  font-size: 16px;
+.shadowBox {
+  width:250px;
+  height:180px;
 }
-
-
-
-.author {
-  margin-left: 45px;
-  font-size: 16px;
-}
-
 
 .banner{
   margin:0;
+  padding:0;
 }
-
 
 
 h2 {
@@ -181,12 +119,5 @@ td p {
   text-align: center;
 }
 
-.shadow {
-  width:250px;
-  height:180px;
-}
 
-.icon {
-  width:60px;
-  height:60px;
-}
+
