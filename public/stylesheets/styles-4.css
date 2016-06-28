@@ -7,7 +7,7 @@ html,body{
 }
 
 body{
-	font-family:'Source Sans Pro',Arial,sans-serif;
+	font-family:'Josefin Sans';
 	font-size: 16px;
 	color: #89949C;
 	letter-spacing: .01em;
@@ -271,6 +271,10 @@ hr{
 	position: relative;
 }
 
+.logo{
+	height: 150%;
+}
+
 #main-nav.scrolled .navbar-brand:after{
 	position: absolute;
 	height:30px;
@@ -444,14 +448,14 @@ hr{
 	transition: all .2s ease-in;
 }
 
-.service-item .fa{
+.service-item .devicon{
 	font-size: 82px;
 	line-height: 180px;
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 }
 
-.service-item:hover .fa{
+.service-item:hover .devicon{
 	font-size: 112px;
 	-webkit-transform:rotate(-15deg);
 	transform:rotate(-30deg);

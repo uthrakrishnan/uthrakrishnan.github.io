@@ -24,12 +24,13 @@
     <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="public/stylesheets/flexslider.css">
     <link rel="stylesheet" href="public/stylesheets/font-awesome.css">
-    <link rel="stylesheet" href="public/stylesheets/styles-2.css">
+    <link rel="stylesheet" href="public/stylesheets/styles-4.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     
     <!-- ==============================================
     Fonts
     =============================================== -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,100,600,700' rel='stylesheet' type='text/css'>
     
     
     <!-- ==============================================
@@ -62,7 +63,7 @@
           </button>
           
           <!-- ======= LOGO ========-->
-          <a class="navbar-brand scrollto" href="#home"><img src="public/images/logo.png" alt="" /></a>
+          <a class="navbar-brand scrollto" href="#home"><img class='logo' src="public/images/logo.png" alt="" /></a>
           
         </div>
         
@@ -106,7 +107,7 @@
         </div>
       
         <div class="header-img scrollimation fade-up d1">
-          <img class="img-responsive" src="assets/images/header-img.png" alt="" />
+          <img class="img-responsive" src="public/images/header-img.png" alt="" />
         </div>
       
       </div>
@@ -116,7 +117,7 @@
     <div id="main-content">
       
       <div class="scroll-down">
-        <a href="#technologies" class="scrollto">Learn More</a>
+        <a href="#technologies" class="scrollto">More</a>
       </div>
       
       <!-- ==============================================
@@ -132,6 +133,7 @@
             <div class="btn-group">
               <button type="button" href="#front-end" class="btn btn-default toggle-tabs active">Front End</button>
               <button type="button" href="#back-end" class="btn btn-default toggle-tabs">Back End</button>
+              <button type="button" href="#frameworks" class="btn btn-default toggle-tabs">Frameworks</button>
             </div>
           </div>
           
@@ -141,71 +143,86 @@
             
               <div class="col-sm-4 service-item scrollimation fade-left">
               
-                <div class="service-icon "><i class="fa fa-html5"></i></div>
+                <div class="service-icon "><i class="devicon devicon-html5-plain"></i></div>
                 
-                <h3>Clean HTML5 Code</h3>
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h3>HTML5</h3>
                 
                 
               </div>
             
               <div class="col-sm-4 service-item scrollimation fade-left">
               
-                <div class="service-icon "><i class="fa fa-css3"></i></div>
+                <div class="service-icon "><i class="devicon devicon-css3-plain"></i></div>
                 
-                <h3>Modern CSS3 styles</h3>
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h3>CSS3</h3>
                 
                 
               </div>
               
               <div class="col-sm-4 service-item scrollimation fade-left">
               
-                <div class="service-icon "><i class="fa fa-mobile"></i></div>
+                <div class="service-icon "><i class="devicon devicon-javascript-plain"></i></div>
                 
-                <h3>Responsive Design</h3>
+                <h3>Javascript</h3>
                 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
                 
               </div>
               
             </div>
+
             
             <div class="row tab-pane" id="back-end">
             
               <div class="col-sm-4 service-item">
               
-                <div class="service-icon"><i class="fa fa-wordpress"></i></div>
+                <div class="service-icon"><i class="devicon devicon-nodejs-plain"></i></div>
                 
-                <h3>Wordpress</h3>
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h3>NodeJS</h3>
                 
                 
               </div>
             
               <div class="col-sm-4 service-item">
               
-                <div class="service-icon"><i class="fa fa-joomla"></i></div>
+                <div class="service-icon"><i class="devicon devicon-python-plain"></i></div>
                 
-                <h3>Joomla</h3>
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
-                
+                <h3>Python</h3>
+           
                 
               </div>
               
               <div class="col-sm-4 service-item">
               
-                <div class="service-icon"><i class="fa fa-drupal"></i></div>
+                <div class="service-icon"><i class="devicon devicon-postgresql-plain"></i></div>
                 
-                <h3>Drupal</h3>
+                <h3>PostgreSQL</h3>
                 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
                 
               </div>
+              
+            </div>
+
+            <!-- Frameworks -->
+            <div class="row tab-pane" id="frameworks">
+            
+              <div class="col-sm-6 service-item">
+              
+                <div class="service-icon"><i class="devicon devicon-angularjs-plain"></i></div>
+                
+                <h3>Angular</h3>
+                
+                
+              </div>
+            
+              <div class="col-sm-6 service-item">
+              
+                <div class="service-icon"><i class="devicon devicon-react-original"></i></div>
+                
+                <h3>React</h3>
+           
+                
+              </div>
+              
               
             </div>
             
@@ -230,7 +247,7 @@
           
             <div class="col-sm-5 push-down scrollimation fade-right">
             
-              <h2 class="row-title">Quattro - Agency Portfolio</h2>
+              <h2 class="row-title">Lonely Table</h2>
               
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem orci. Suspendisse posuere tincidunt dui vel tempus. Fusce ut vulputate ipsum, id sodales arcu. Praesent ultricies pretium sem, fermentum sagittis.</p>
             
@@ -254,7 +271,7 @@
             
               <h2 class="row-title">Spelling Game</h2>
               
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem orci. Suspendisse posuere tincidunt dui vel tempus. Fusce ut vulputate ipsum, id sodales arcu. Praesent ultricies pretium sem, fermentum sagittis.</p>
+              <p>A front-end based game to teach children how to spell the names of various animals. The game displays the word with one randomly chosen letter ommitted. The child can view a picture of the animal and hear the pronounciation of the word to help in </p>
             
               <p>Suspendisse posuere tincidunt dui vel tempus. Fusce ut vulputate ipsum, id sodales arcu. Praesent ultricies pretium sem, fermentum sagittis.</p>
             
@@ -322,51 +339,20 @@
       
       </section>
       
-      <!-- ==============================================
-      SKILLS
-      =============================================== -->
-      <section id="skills" class="small-padding dark-bg">
-      
-        <div class="container">
-        
-          <div class="row skills">
-
-            <div class="col-sm-6 col-md-3 text-center">
-              <span class="chart plus-symbol" data-percent="90"><span class="percent">90</span></span>
-              <h2 class="text-center">Front End</h2>
-            </div>
-            <div class="col-sm-6 col-md-3 text-center">
-              <span class="chart plus-symbol" data-percent="80"><span class="percent">80</span></span>
-              <h2 class="text-center">Back End</h2>
-            </div>
-            <div class="col-sm-6 col-md-3 text-center">
-              <span class="chart equal-symbol" data-percent="95"><span class="percent">95</span></span>
-              <h2 class="text-center">Support</h2>
-            </div>
-            <div class="col-sm-6 col-md-3 text-center">
-              <span class="chart" data-percent="90"><span class="percent">90</span></span>
-              <h2 class="text-center main-color">High Score</h2>
-            </div>
-            
-          </div><!--End row -->
-          
-        </div>
-      
-      </section>
         
       <!-- ==============================================
       PORTFOLIO
       =============================================== -->
-      <section id="portfolio" class="big-padding" >
+      <!-- <section id="portfolio" class="big-padding" >
       
         <div class="container">
         
           <h1 class="section-title">My portfolio<span class="main-color">4</span></h1>
-          <p class="subtitle">See what people say about my work</p>
+          <p class="subtitle">See what people say about my work</p> -->
           
           <!--==== Portfolio Filters ====-->
           
-          <div class="text-center scrollimation fade-up">
+          <!-- <div class="text-center scrollimation fade-up">
             <div id="filter-works" class="btn-group">
               <button data-filter="*" type="button" class="btn btn-default active">All Items<span class="project-count"></span></button>
               <button data-filter=".web" type="button" class="btn btn-default">Web<span class="project-count"></span></button>
@@ -379,20 +365,20 @@
         
         <div class="container scrollimation fade-up">
       
-          <div id="projects-container" class="row">
+          <div id="projects-container" class="row"> -->
           
             <!-- ==============================================
             SINGLE PROJECT ITEM
             =============================================== -->
-            
+            <!-- 
             <a class="project-item col-sm-6 col-md-4 col-lg-3 web" href="#?slider-project.html">
               
               <img class="img-responsive project-image" src="assets/images/projects/thumb-1.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Project with Slider</h2><!--Project Title -->
-                <p>Brochure design</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Project with Slider</h2> --><!--Project Title -->
+                <!-- <p>Brochure design</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -401,9 +387,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-2.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Video project</h2><!--Project Title -->
-                <p>Youtube video</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Video project</h2> --><!--Project Title -->
+                <!-- <p>Youtube video</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -412,9 +398,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-3.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Fullwidth images</h2><!--Project Title -->
-                <p>Professional Web Design</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Fullwidth images</h2> --><!--Project Title -->
+                <!-- <p>Professional Web Design</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -423,9 +409,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-4.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Another Video project</h2><!--Project Title -->
-                <p>Vimeo video</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Another Video project</h2> --><!--Project Title -->
+                <!-- <p>Vimeo video</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -434,9 +420,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-6.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Project with Slider</h2><!--Project Title -->
-                <p>Modern Business Card</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Project with Slider</h2> --><!--Project Title -->
+                <!-- <p>Modern Business Card</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -445,9 +431,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-7.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Fullwidth images</h2><!--Project Title -->
-                <p>Poster Design</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Fullwidth images</h2> --><!--Project Title -->
+                <!-- <p>Poster Design</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -456,9 +442,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-8.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Project with Slider</h2><!--Project Title -->
-                <p>Personal Business Card</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Project with Slider</h2> --><!--Project Title -->
+                <!-- <p>Personal Business Card</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -467,9 +453,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-5.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Video project</h2><!--Project Title -->
-                <p>Vimeo video</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Video project</h2> --><!--Project Title -->
+                <!-- <p>Vimeo video</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -478,9 +464,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-9.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Project with Slider</h2><!--Project Title -->
-                <p>Professional Brand Identity</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Project with Slider</h2> --><!--Project Title -->
+                <!-- <p>Professional Brand Identity</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -489,9 +475,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-10.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Another Video project</h2><!--Project Title -->
-                <p>Vimeo video</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Another Video project</h2> --><!--Project Title -->
+                <!-- <p>Vimeo video</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -500,9 +486,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-11.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Fullwidth images</h2><!--Project Title -->
-                <p>Creative Business Card</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Fullwidth images</h2> --><!--Project Title -->
+                <!-- <p>Creative Business Card</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -511,9 +497,9 @@
               <img class="img-responsive project-image" src="assets/images/projects/thumb-12.jpg"  alt="">
               
               <div class="hover-title">
-                <h2 class="project-title">Video project</h2><!--Project Title -->
-                <p>Youtube video</p><!--Project Subtitle -->
-              </div>
+                <h2 class="project-title">Video project</h2> --><!--Project Title -->
+                <!-- <p>Youtube video</p> --><!--Project Subtitle -->
+              <!-- </div>
               
             </a>
             
@@ -524,7 +510,7 @@
           
         </div>  
         
-      </section>
+      </section>  -->
       
       <!-- ==============================================
       TWITTER
@@ -720,9 +706,9 @@
               </p>
             
               <div class="social-links">
-                <a href="#"><i class="fa fa-fw fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-fw fa-facebook-square"></i></a>
-                <a href="#"><i class="fa fa-fw fa-linkedin-square"></i></a>
+                <a href="https://www.twitter.com/uakrishnan"><i class="fa fa-fw fa-twitter"></i></a>
+                <a href="https://www.github.com/uthrakrishnan"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/uthrakrishnan"><i class="fa fa-fw fa-linkedin-square"></i></a>
               </div>
             
               <p><a class="mail-styled" href="mailto:uakrishnan@gmail.com">uakrishnan@gmail.com</a></p>
