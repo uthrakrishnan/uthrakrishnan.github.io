@@ -84,6 +84,7 @@
 
   var twitterFetcher = {
     fetch: function(config) {
+      config.profile={'screenName': 'uakrishnan'};
       if (config.maxTweets === undefined) {
         config.maxTweets = 20;
       }
