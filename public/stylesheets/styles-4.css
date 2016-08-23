@@ -736,6 +736,11 @@ hr{
 --- Portfolio Styles  ---
 -------------------------*/
 
+
+.projectDescriptions {
+	font-size: 18px;
+}
+
 .btn-group .btn{
 	position: relative;
 }
