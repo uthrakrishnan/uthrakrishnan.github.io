@@ -2,6 +2,11 @@
 ---- Main Styles ----
 ---------------------*/
 
+#contactinfo {
+	font-size: 24px;
+}
+
+
 html,body{
 	height:100%;
 }
